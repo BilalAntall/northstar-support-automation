@@ -1,0 +1,28 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+private/
+*.pem
+*.key
+*credentials*.json
+*token*.json
+
+# Local n8n state
+.n8n/
+database.sqlite
+database.sqlite-*
+
+# Local dependencies and editor files
+node_modules/
+.vscode/
+.idea/
+
+# OS files and generated packages
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.zip
+*.log
